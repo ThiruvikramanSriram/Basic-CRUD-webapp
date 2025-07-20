@@ -56,6 +56,7 @@ FullStackCRUDProject/
    ./mvnw spring-boot:run
 ````
 
+---
 ### 💻 Frontend (Angular)
 
 1. Go to `ANGSPG/`
@@ -89,3 +90,4 @@ App will run at `http://localhost:4200`
 Feel free to fork the repo and submit pull requests or issues. Suggestions are welcome!
 
 ```
+---
