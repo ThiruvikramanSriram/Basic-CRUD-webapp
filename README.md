@@ -1,3 +1,4 @@
+
 # Employee Management System (Full Stack CRUD Web App)
 
 A full-stack web application for managing employee data with complete **CRUD (Create, Read, Update, Delete)** functionality.
@@ -31,16 +32,14 @@ A full-stack web application for managing employee data with complete **CRUD (Cr
 
 ## 🗃️ Project Structure
 
+```
 FullStackCRUDProject/
-├── ANGSPG/ # Angular Frontend
-│ └── src/ # Component-based UI
-├── EMS/ # Spring Boot Backend
-│ └── src/ # REST APIs and Service Logic
+├── ANGSPG/         # Angular Frontend
+│   └── src/        # Component-based UI
+├── EMS/            # Spring Boot Backend
+│   └── src/        # REST APIs and Service Logic
 ├── README.md
-
-yaml
-Copy
-Edit
+```
 
 ---
 
@@ -53,30 +52,34 @@ Edit
 3. Run:
    ```bash
    ./mvnw spring-boot:run
-💻 Frontend (Angular)
-Go to ANGSPG/
+   ```
 
-Install dependencies:
+### 💻 Frontend (Angular)
 
-bash
-Copy
-Edit
-npm install
-Run Angular dev server:
+1. Go to `ANGSPG/`
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+3. Run Angular dev server:
+   ```bash
+   ng serve
+   ```
 
-bash
-Copy
-Edit
-ng serve
-App will run at http://localhost:4200
+App will run at `http://localhost:4200`
 
-📌 Notes
-✅ Make sure MySQL is running and database is created
+---
 
-✅ Backend exposes REST APIs
+## 📌 Notes
 
-✅ CORS should be enabled in backend for Angular access
+- ✅ Make sure **MySQL is running** and database is created
+- ✅ Backend exposes **REST APIs**
+- ✅ CORS should be enabled in backend for Angular access
+- ✅ Frontend consumes backend API using Angular Services
+- ✅ Project is split cleanly: `ANGSPG` for frontend and `EMS` for backend
 
-✅ Frontend consumes backend API using Angular Services
+---
 
-✅ Project is split cleanly: ANGSPG for frontend and EMS for backend
+## 🤝 Contributing
+
+Feel free to fork the repo and submit pull requests or issues. Suggestions are welcome!
